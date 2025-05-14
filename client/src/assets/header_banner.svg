@@ -1,0 +1,56 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0514" />
+      <stop offset="30%" stop-color="#1A0B2E" />
+      <stop offset="70%" stop-color="#341A5E" />
+      <stop offset="100%" stop-color="#432773" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="70%" cy="30%" r="70%" fx="70%" fy="30%">
+      <stop offset="0%" stop-color="#9D4EDD" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#341A5E" stop-opacity="0" />
+    </radialGradient>
+    
+    <pattern id="heroPattern" patternUnits="userSpaceOnUse" width="60" height="60" patternTransform="scale(2) rotate(10)">
+      <path d="M10 10L50 10L30 50Z" fill="#ffffff" fill-opacity="0.03" />
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#headerGradient)" />
+  <rect width="100%" height="100%" fill="url(#glowGradient)" />
+  <rect width="100%" height="100%" fill="url(#heroPattern)" />
+  
+  <circle cx="200" cy="150" r="180" fill="#9D4EDD" fill-opacity="0.05" />
+  <circle cx="1000" cy="100" r="120" fill="#9D4EDD" fill-opacity="0.04" />
+  
+  <path d="M0,280 L50,280 L50,230 L70,230 L70,250 L90,250 L90,200 L110,200 L110,240 L130,240 L130,210 L150,210 L150,260 L170,260 L170,220 L190,220 L190,270 L210,270 L210,230 L230,230 L230,245 L250,245 L250,225 L270,225 L270,240 L290,240 L290,260 L310,260 L310,220 L330,220 L330,250 L350,250 L350,230 L370,230 L370,200 L390,200 L390,240 L410,240 L410,220 L430,220 L430,250 L450,250 L450,260 L470,260 L470,240 L490,240 L490,220 L510,220 L510,190 L530,190 L530,240 L550,240 L550,220 L570,220 L570,230 L590,230 L590,200 L610,200 L610,225 L630,225 L630,210 L650,210 L650,245 L670,245 L670,235 L690,235 L690,215 L710,215 L710,195 L730,195 L730,225 L750,225 L750,215 L770,215 L770,240 L790,240 L790,200 L810,200 L810,230 L830,230 L830,210 L850,210 L850,180 L870,180 L870,220 L890,220 L890,200 L910,200 L910,240 L930,240 L930,220 L950,220 L950,250 L970,250 L970,220 L990,220 L990,200 L1010,200 L1010,230 L1030,230 L1030,210 L1050,210 L1050,240 L1070,240 L1070,220 L1090,220 L1090,240 L1110,240 L1110,210 L1130,210 L1130,230 L1150,230 L1150,245 L1170,245 L1170,235 L1190,235 L1190,280 L0,280 Z" fill="#0F0514" />
+  
+  <path d="M0,280 L50,280 L50,230 L70,230 L70,250 L90,250 L90,200 L110,200 L110,240 L130,240 L130,210 L150,210 L150,260 L170,260 L170,220 L190,220 L190,270 L210,270 L210,230 L230,230 L230,245 L250,245 L250,225 L270,225 L270,240 L290,240 L290,260 L310,260 L310,220 L330,220 L330,250 L350,250 L350,230 L370,230 L370,200 L390,200 L390,240 L410,240 L410,220 L430,220 L430,250 L450,250 L450,260 L470,260 L470,240 L490,240 L490,220 L510,220 L510,190 L530,190 L530,240 L550,240 L550,220 L570,220 L570,230 L590,230 L590,200 L610,200 L610,225 L630,225 L630,210 L650,210 L650,245 L670,245 L670,235 L690,235 L690,215 L710,215 L710,195 L730,195 L730,225 L750,225 L750,215 L770,215 L770,240 L790,240 L790,200 L810,200 L810,230 L830,230 L830,210 L850,210 L850,180 L870,180 L870,220 L890,220 L890,200 L910,200 L910,240 L930,240 L930,220 L950,220 L950,250 L970,250 L970,220 L990,220 L990,200 L1010,200 L1010,230 L1030,230 L1030,210 L1050,210 L1050,240 L1070,240 L1070,220 L1090,220 L1090,240 L1110,240 L1110,210 L1130,210 L1130,230 L1150,230 L1150,245 L1170,245 L1170,235 L1190,235 L1190,280 L0,280 Z" stroke="#9D4EDD" stroke-width="1" stroke-opacity="0.3" fill="none" />
+
+  <path d="M320,120 C340,105 350,115 360,100 C367,90 374,93 375,80 L383,85 C385,95 390,90 395,98 L405,90 C408,98 412,95 420,105 C428,95 432,98 435,90 L445,98 C450,90 455,95 457,85 L465,80 C466,93 473,90 480,100 C490,115 500,105 520,120 C520,130 515,135 510,140 C505,150 500,165 485,170 C470,175 450,173 435,175 C420,173 400,175 385,170 C370,165 365,150 360,140 C355,135 350,130 350,120 L320,120 Z" fill="#3D1D6B" stroke="#684A8D" stroke-width="1"/>
+  <ellipse cx="420" cy="145" rx="15" ry="10" fill="#684A8D" fill-opacity="0.7" />
+  
+  <g opacity="0.7">
+    <circle cx="100" cy="80" r="1.5" fill="white" />
+    <circle cx="250" cy="50" r="2" fill="white" />
+    <circle cx="400" cy="70" r="1" fill="white" />
+    <circle cx="550" cy="40" r="1.5" fill="white" />
+    <circle cx="700" cy="90" r="2" fill="white" />
+    <circle cx="850" cy="60" r="1" fill="white" />
+    <circle cx="1000" cy="80" r="1.5" fill="white" />
+    <circle cx="1150" cy="50" r="1" fill="white" />
+    <circle cx="150" cy="120" r="1" fill="white" />
+    <circle cx="300" cy="100" r="1.5" fill="white" />
+    <circle cx="450" cy="40" r="1" fill="white" />
+    <circle cx="600" cy="60" r="2" fill="white" />
+    <circle cx="750" cy="30" r="1.5" fill="white" />
+    <circle cx="900" cy="110" r="1" fill="white" />
+    <circle cx="1050" cy="40" r="2" fill="white" />
+    <circle cx="1120" cy="80" r="1" fill="white" />
+  </g>
+  
+  <polygon points="800,120 820,110 835,120 825,100 840,85 820,90 810,70 800,90 780,85 795,100 785,120" fill="#9D4EDD" fill-opacity="0.7" />
+  
+  <rect x="50%" y="50%" width="600" height="100" fill="none" stroke="none" transform="translate(-300, -50)" />
+</svg>

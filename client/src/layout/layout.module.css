@@ -1,0 +1,8 @@
+.layout {
+  display: grid;
+  grid-template-rows: 20vh 1fr;
+}
+
+main {
+  min-height: 1fr;
+}
