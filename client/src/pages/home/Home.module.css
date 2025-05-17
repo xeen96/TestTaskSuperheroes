@@ -1,0 +1,32 @@
+.card-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, max(312px, 396px));
+  gap: 1rem;
+  padding: 2rem;
+}
+.load-more-container {
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.load-more {
+  margin-top: 1rem;
+  background: var(--primary-background-gradient);
+  box-shadow: 0 0 5px 0 black;
+  color: var(--text-light);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  aspect-ratio: 10/1;
+  text-shadow: inherit;
+  font-weight: inherit;
+  font-size: 1.1rem;
+}
+.load-more:hover {
+  filter: brightness(1.25);
+}

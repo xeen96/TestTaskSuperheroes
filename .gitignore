@@ -4,9 +4,7 @@
 
 *.git
 .env
-
-*package-lock.json
-*package.json
+*.vscode
 
 **/node_modules
-
+/server/src/uploads

@@ -1,37 +1,42 @@
-import mongoose, { Model } from 'mongoose';
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
-
 
 const SuperHeroSchema = new Schema({
   nickname: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    trim: true,
   },
 
   real_name: {
     type: String,
-    default: ''
+    default: '',
+    trim: true,
   },
 
   origin_description: {
     type: String,
-    default: ''
+    default: '',
+    trim: true,
   },
   superpowers: {
     type: [String],
-    default: []
+    default: [],
+    set: (arr: string[]) =>
+      arr.map((str: string) => str.trim()).filter((str) => str.length > 0), //delete empty strings
   },
 
   catch_phrase: {
     type: String,
     default: '',
+    trim: true,
   },
-  
+
   images: {
     type: [String],
-    default: []
-  }
-})
+    default: [],
+  },
+});
 
-export const SuperHero = mongoose.model('SuperHero', SuperHeroSchema);
+export const SuperheroModel = mongoose.model('Superhero', SuperHeroSchema);

@@ -1,8 +1,0 @@
-.card-board {
-  display: grid;
-  box-shadow: 0px 0px 3px 0px #6B21A8;
-  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-  background: linear-gradient(130deg, #1E1B4B 0%, #2E1065 100%);
-}

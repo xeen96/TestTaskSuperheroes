@@ -1,0 +1,148 @@
+.heroForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #4a9af8;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(74, 154, 248, 0.25);
+}
+
+.input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submitButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4a9af8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: #3a89e6;
+}
+
+.submitButton:active {
+  background-color: #2a79d6;
+}
+.submitButton:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.heroForm {
+  position: relative;
+  overflow: hidden;
+}
+
+.heroForm::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ff3d00, #4a9af8, #00c853);
+}
+
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageItem {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.imagePreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.deleteButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 61, 0, 0.8);
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.deleteButton:hover {
+  background: rgba(255, 61, 0, 1);
+}
+
+.fileInput {
+  margin-top: 0.5rem;
+}
+
+.uploadingText {
+  color: #4a9af8;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .heroForm {
+    padding: 1.5rem;
+  }
+}

@@ -1,11 +1,26 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   color-scheme: light dark;
-  --primary-color: #f0f0f0;
-  background-color: #242424;
+  --text-light: #f0f0f0;
+  --text-dark: #0f0f0f;
+  --text-danger: #bb2124;
+
+  --bg-light: var(--text-light);
+  --bg-dark: var(--text-dark);
+  --bg-danger: var(--text-danger);
+
+  --primary-background-color: #1e1b4b;
+  --primary-background-gradient: linear-gradient(
+    150deg,
+    #750000 0%,
+    #0f0f0f 50%,
+    #004590 100%
+  );
+
+  background: var(--primary-background-gradient);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,6 +40,5 @@ a {
 
 body {
   min-height: 100vh;
-  color: var(--primary-color);
+  color: var(--text-light);
 }
-

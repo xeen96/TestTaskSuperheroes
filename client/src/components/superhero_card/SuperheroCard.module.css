@@ -1,0 +1,61 @@
+.card {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.options-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.delete-btn {
+  background-color: var(--bg-danger);
+  color: var(--text-light);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  filter: brightness(1.25);
+}
+.edit-btn {
+  background-color: var(--primary-background-color);
+  color: var(--text-light);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.edit-btn:hover {
+  background-color: blue;
+  filter: brightness(1.25);
+}
